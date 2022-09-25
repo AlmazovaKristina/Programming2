@@ -16,10 +16,9 @@ if (num > 99)
         int SecondDigit = ThirdDigit % 10;
         return SecondDigit;
 }
-//    else
-//  {
+
   return 0;
-//  }
+
 }
 int bigresult = Digit (num);
 string result = bigresult > 0 ? $"Цифра {bigresult.ToString()}" :"Третьей цифры нет";
